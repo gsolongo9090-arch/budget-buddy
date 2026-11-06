@@ -1,9 +1,15 @@
 .income {
   background-color: lightgreen;
+  padding: 20px;
+  border-radius: 12px;
 }
 .expenses {
   background-color: lightcoral;
+  padding: 20px;
+  border-radius: 12px;
 }
 .balance {
   background-color: lightblue;
+  padding: 20px;
+  border-radius: 12px;
 }
