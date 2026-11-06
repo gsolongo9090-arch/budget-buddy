@@ -1,3 +1,9 @@
 .income {
   background-color: lightgreen;
 }
+.expenses {
+  background-color: lightcoral;
+}
+.balance {
+  background-color: lightblue;
+}
