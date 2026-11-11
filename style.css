@@ -40,6 +40,7 @@ body {
   flex-direction: row;
   gap: 20px;
 }
-
-
+#income-title {
+  color: green;
+}
 
