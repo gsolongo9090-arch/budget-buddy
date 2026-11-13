@@ -1,1 +1,1 @@
-alert("Welcome to Budget Buddy");
+alert("Welcome to Budget Buddy!");
