@@ -3,7 +3,6 @@ const addIncomeButton = document.getElementById("add-income");
 const totalIncomeDisplay = document.getElementById("total-income");
 addIncomeButton.addEventListener("click", function() {
  const income = Number(incomeInput.value);
-alert("Income value: " + income);
   if (income <= 0) {
     alert("Please enter a valid income amount.");
     return;
