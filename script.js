@@ -3,6 +3,5 @@ const addIncomeButton = document.getElementById("add-income");
 const totalIncomeDisplay = document.getElementById("total-income");
 addIncomeButton.addEventListener("click", function() {
   const income = Number(incomeInput.value);
-
   totalIncomeDisplay.textContent = income;
 });
