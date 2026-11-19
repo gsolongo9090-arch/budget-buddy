@@ -11,6 +11,7 @@ addIncomeButton.addEventListener("click", function() {
   const newTotal = currentTotal + income;
   totalIncomeDisplay.textContent = newTotal;
   incomeInput.value = "";
+  updateBalance();
 });
 const expenseInput = document.getElementById("expense-input");
 const addExpenseButton = document.getElementById("add-expense");
@@ -25,6 +26,7 @@ addExpenseButton.addEventListener("click", function() {
   const newTotal = currentTotal + expense;
   totalExpensesDisplay.textContent = newTotal;
   expenseInput.value = "";
+  updateBalance();
 });
 const totalBalanceDisplay = document.getElementById("total-balance");
 function updateBalance() {
