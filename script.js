@@ -10,4 +10,5 @@ addIncomeButton.addEventListener("click", function() {
   const currentTotal = Number(totalIncomeDisplay.textContent);
   const newTotal = currentTotal + income;
   totalIncomeDisplay.textContent = newTotal;
+  incomeInput.value = "";
 });
