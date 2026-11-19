@@ -12,3 +12,4 @@ addIncomeButton.addEventListener("click", function() {
   totalIncomeDisplay.textContent = newTotal;
   incomeInput.value = "";
 });
+console.log("JavaScript is working!");
