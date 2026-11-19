@@ -10,7 +10,5 @@ addIncomeButton.addEventListener("click", function() {
   const currentTotal = Number(totalIncomeDisplay.textContent);
   const newTotal = currentTotal + income;
   totalIncomeDisplay.textContent = newTotal;
-  alert("Clear input code reached!");
-incomeInput.value = "";
+  incomeInput.value = null;
 });
-
