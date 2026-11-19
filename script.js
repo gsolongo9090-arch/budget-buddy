@@ -26,3 +26,10 @@ addExpenseButton.addEventListener("click", function() {
   totalExpensesDisplay.textContent = newTotal;
   expenseInput.value = "";
 });
+const totalBalanceDisplay = document.getElementById("total-balance");
+function updateBalance() {
+  const income = Number(totalIncomeDisplay.textContent);
+  const expenses = Number(totalExpensesDisplay.textContent);
+  const balance = income - expenses;
+  totalBalanceDisplay.textContent = balance;
+}
