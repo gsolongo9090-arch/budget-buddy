@@ -12,3 +12,17 @@ addIncomeButton.addEventListener("click", function() {
   totalIncomeDisplay.textContent = newTotal;
   incomeInput.value = "";
 });
+const expenseInput = document.getElementById("expense-input");
+const addExpenseButton = document.getElementById("add-expense");
+const totalExpensesDisplay = document.getElementById("total-expenses");
+addExpenseButton.addEventListener("click", function() {
+  const expense = Number(expenseInput.value);
+  if (expense <= 0) {
+    alert("Please enter a valid expense amount.");
+    return;
+  }
+  const currentTotal = Number(totalExpensesDisplay.textContent);
+  const newTotal = currentTotal + expense;
+  totalExpensesDisplay.textContent = newTotal;
+  expenseInput.value = "";
+});
