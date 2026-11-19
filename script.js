@@ -11,5 +11,6 @@ addIncomeButton.addEventListener("click", function() {
   const newTotal = currentTotal + income;
   totalIncomeDisplay.textContent = newTotal;
   incomeInput.value = "";
+  console.log("JavaScript is working!");
 });
-console.log("JavaScript is working!");
+
